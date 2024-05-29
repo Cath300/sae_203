@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <title>Contact</title>
+</head>
+
+<body>
+
+  <header class="en-tete">
+    <div class="logo">
+      <a href="index.html"><img src="images/logo2-removebg-preview.png" alt="Logo"> </a>
+    </div>
+    <nav class="navigation">
+      <a href="index.html">Accueil</a>
+      <a href="plante.html">Plantes</a>
+      <a href="animaux.html">Animaux</a>
+      <a href="contact.html">Nous contacter</a>
+    </nav>
+    <div class="compte">
+      <a href="admin.html">Se connecter</a>
+      <a href="#">Créer un compte</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-formulaire-contact">
+      <h1>Contactez-Nous</h1>
+      <form class="formulaire-contact" action="traitement_formulaire.php" method="POST">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="sujet">Sujet</label>
+        <input type="text" id="sujet" name="sujet" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>Vous êtes administrateur ? <br> <a href="admin.html"> S'identifier </a> </p>
+    <ul class="reseaux">
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Instagram</a></li>
+    </ul>
+    <p>&copy; 2024 Vente de Plantes et Animaux</p>
+  </footer>
+
+
+</body>
+
+</html>

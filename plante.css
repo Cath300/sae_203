@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.en-tete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #354f52;
+  color: white;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+  border: solid;
+  border-color: black;
+  border-radius: 60px;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.compte {
+  display: flex;
+  gap: 20px;
+}
+
+.compte a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  /* Ajustez selon vos besoins */
+}
+
+.compte a:hover,
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #191919;
+  color: #ccc;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.reseaux {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reseaux li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.reseaux li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.reseaux li a:hover {
+  text-decoration: underline;
+}
+
+
+.contenu-principal {
+  position: relative;
+}
+
+.contenu-principal {
+  position: relative;
+}
+
+.bande-image {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  /* Taille fixe de la bande d'image */
+  background-image: url('images/mur-vegetal-2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.recherche {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  /* Fond semi-transparent */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.recherche input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.recherche button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #354f52;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recherche button:hover {
+  background-color: #2c3f41;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between;
+}
+
+img {
+  width: 30%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.categorie_plante a {
+  font-size: 20px;
+  color: green;
+}
+
+annexe2 h2 {
+  font-size: 30px;
+}
+
+.plante_interieur {
+  background-color: #d4ff94;
+}
+
+.categorie_plante li:hover {
+  background-color: #d4ff94;
+}
+
+.images :hover {
+  transform: scale(1.2);
+}

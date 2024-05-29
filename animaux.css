@@ -1,0 +1,136 @@
+.en-tete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #354f52;
+  color: white;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+  border: solid;
+  border-color: black;
+  border-radius: 60px;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.compte {
+  display: flex;
+  gap: 20px;
+}
+
+.compte a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.compte a:hover,
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.animaux div {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat {
+  background-color: #354f52;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  border-radius: 20px;
+}
+
+.chat p {
+  color: white;
+  margin-right: 20px;
+}
+
+.chat a {
+  border: solid;
+  display: inline;
+  border-radius: 20px;
+}
+
+.chat img {
+  margin: 20px;
+}
+
+h2 {
+  margin-left: 20px;
+  color: white;
+}
+
+img {
+  width: 400px;
+}
+
+
+h1 {
+  margin-left: 20px;
+}
+
+.chien {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  background-color: #354f52;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.chien a {
+  border: solid;
+  display: inline;
+  border-radius: 20px;
+}
+
+.chien img {
+  margin: 20px;
+}
+
+.chien p {
+  color: white;
+  margin-right: 20px;
+}
+
+.reseaux {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reseaux li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.reseaux li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.reseaux li a:hover {
+  text-decoration: underline;
+}
